@@ -22,6 +22,7 @@
     "gulp-watch": "^5.0.1",
     "ion-rangeslider": "^2.3.1",
     "jquery": "^3.6.0",
+    "jquery-form-styler": "^2.0.2",
     "rateyo": "^2.3.2",
     "sass": "^1.53.0",
     "slick": "^1.12.2",
