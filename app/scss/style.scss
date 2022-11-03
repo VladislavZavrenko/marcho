@@ -115,6 +115,9 @@
     font-size: 22px;
     line-height: 1;
   }
+  &__form{
+    display: flex;
+  }
   &__link {
     margin-bottom: 10px;
     display: block;
@@ -125,6 +128,7 @@
   &__form-input {
     background-color: #fff;
     max-width: 320px;
+    margin-right: 3px;
     width: 100%;
     border: none;
     padding: 12px 10px 12px 15px;
