@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Document</title>
+    <link href="css/index.min.css" rel="stylesheet" />
+  </head>
+  <body>
+   
+  {% include "app/module/_header/header.html" %}  
+
+    <main class="main">
+  
+  
+  {% include "app/module/_top-slider/top-slider.html" %}  
+  
+  {% include "app/module/_categories-info/categories-info.html" %} 
+
+  {% include "app/module/_video-fashion/video-fashion.html" %} 
+  
+  {% include "app/module/_product/product.html" %} 
+  
+  {% include "app/module/_promo/promo.html" %} 
+  
+  {% include "app/module/_blog/blog.html" %} 
+
+
+  </main>
+
+  {% include "app/module/_footer/footer.html" %}  
+ 
+
+    <script src="js/main.min.js"></script>
+  </body>
+</html>
